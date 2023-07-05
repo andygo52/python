@@ -1,0 +1,8 @@
+#For importing a YouTube video into Jupyter notebook:
+
+from IPython.display import YouTubeVideo
+
+#Replace "APWy6Pc83gE" with the YouTube ID inside quotes:
+video = YouTubeVideo("APWy6Pc83gE", width=560, height=450)
+
+display(video)
